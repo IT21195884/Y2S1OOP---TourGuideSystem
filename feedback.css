@@ -1,0 +1,14 @@
+body{
+ 
+    background-color: black;
+        background-position: center;
+    background-size: cover;
+    background-repeat:repeat;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.button {
+    
+    border-radius: 50%;
+  }

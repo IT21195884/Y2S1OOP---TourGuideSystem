@@ -1,0 +1,126 @@
+
+
+.body
+{
+	font-family: 'poppins' , sans-serif;
+	font-size: 13px;
+	font-style: bold;
+	margin:0;
+	padding: 0;
+	outline: none;
+	border: none;
+	text-transform: uppercase;
+}
+
+.date
+{
+	background: linear-gradient(135deg, #82E0AA , #1E8449);
+	font-size : 20px;
+	font-family :"Lucida Console", "Courier New", monospace;
+	font-color : gray;
+	text-align: center;
+	padding : 5px 5px 5px 5px;
+	
+	
+}
+
+.container
+{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	padding: 35px;
+	min-height: 80vh;
+	background-image: url(images/payback.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding-bottom: 400px;
+	
+	
+}
+
+.container form
+{
+	padding: 20px;
+	width: 700px;
+	background: white;
+	opacity: 0.8555;
+	/*box-shadow: 4px 7px 4px 4px #a9a9a9;*/
+}
+	
+.container form .rows
+{
+	gap:12px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container form .rows .col
+{
+	 flex: 1 1 250px;
+}
+
+.container form .rows .col .title
+{
+	font-size: 20px;
+	background: linear-gradient(135deg, #82E0AA , #1E8449);
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	
+}
+
+.container form .rows .col .inputBox
+{
+	margin: 12px 0;
+}
+
+.container form .rows .col .inputBox span
+{
+	margin-bottom:4px;
+	display: block;
+}
+
+.container form .rows .col .inputBox input
+{
+	width: 90%
+	border: 2px solid #000000
+	padding: 10px 13px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.container form .rows .col .inputBox input : focus
+{
+	background: linear-gradient(135deg, #82E0AA , #1E8449);
+}
+
+.container form .rows .col .flex
+{
+	display: flex;
+	gap: 12px;
+}
+
+.container form .rows .col .inputBox .img
+{
+	margin-top:4px;
+	filter: drp-shadow;
+}
+
+.button
+{
+	width: 100%;
+	outline: none;
+	padding: 9px;
+	font size: 20px;
+	background: linear-gradient(135deg, #82E0AA , #1E8449);
+	cursor: pointer;
+	
+}
+
+.button:hover
+{
+	background: linear-gradient(135deg, #82E0AA , #1E8449);
+}
+
+
+	

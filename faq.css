@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ 
+    background-image: url('images/faq.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.box
+{
+width: 320px;
+margin: 100px auto;
+
+
+}
+
+.box .heading 
+{
+ width: 480px;
+ height: 30px;
+ background: #383636;   
+ margin: 100px auto;
+ font-size: 20px;
+font-weight: lighter;
+color: #FFD700;
+}
+
+.box
+{
+
+width: 500px;
+
+margin: 100px auto;
+background: rgb(0, 0, 0,0.7);
+border-radius: 7px;
+box-shadow: yellow);
+
+}
+
+.box .heading
+{
+background: black;
+border-radius: 5px;
+padding: 10px;
+color:white;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.faqs
+{
+    position: relative;
+    padding: 5px 20px;
+    padding-bottom: 60px;
+    width: 400px;
+    left: 20px;
+
+}
+
+::-webkit-details-marker
+{
+float: right;
+margin-top : 3px ;
+
+
+}
+
+details
+{
+    background: white;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-family:'Roboto Flex', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+
+
+details summary
+{
+
+    outline: none;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+
+.close{
+    font-size: 50px;
+    font-weight: 600;
+    display: inline-block;
+    transform: rotate(45deg);
+    color: antiquewhite;
+    position: relative;
+    cursor: pointer;
+    bottom: 550px;
+    right: 20px;
+    float: right;
+}
+
+.close:hover{
+    color: #FFD700;
+}

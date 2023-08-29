@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="payment_gateway.css">
+	
+				<script>
+				
+				function displayDate()
+				{
+					document.getElementById("showDate").innerHTML = Date();
+					
+				}
+				
+				</script>
+</head>
+
+<body class="body">
+
+			<div class="date">
+			
+				<center><button type="button" onclick = "displayDate()"> "What About TODAY!!"</button></center>
+				<p id="showDate"></p>
+			</div>
+
+<div class="container">
+	
+	<form action="">
+	
+		<div class="rows">	
+		
+			<div class="col">
+				<h2 class="title">Payment Address</h2> 
+				
+				<div class="inputBox">
+					<spam>Full Name</spm>
+					<input type="text" placeholder="FLOYD COTTO">
+				
+				</div>
+				
+				<div class="inputBox">
+					<spam>Email</spm>
+					<input type="text" placeholder="Floyd@gmail.com">
+				
+				</div>
+				
+				<div class="inputBox">
+					<spam>Address</spm>
+					<input type="text" placeholder="712/Prime City">
+				
+				</div>
+				
+				<div class="inputBox">
+					<spam>City</spm>
+					<input type="text" placeholder="Los Anjalese">
+				
+				</div>
+				
+				<div class="inputBox">
+					<spam>State</spm>
+					<input type="text" placeholder="California">
+				
+				</div>
+				
+				<div class="inputBox">
+					<spam>ZIP/Postal Code</spm>
+					<input type="text" placeholder="10210">
+				
+				</div>
+			
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			<div class="col">
+				<h2 class="title">Payment</h2> 
+				
+				<div class="inputBox">
+					<spam>Accepted Cards</spm>
+					<img src= "images/payment_gateway.png" width="120" height="40" alter="Payment Cards">
+				
+				</div>
+				
+				<div class="inputBox">
+					<spam>Name On The Card</spm>
+					<input type="text" placeholder="FLOYD COTTO">
+				
+				</div>
+				
+				<<div class="inputBox">
+					<spam>Card Number</spm>
+					<input type="text" placeholder="1111-2222-3333-4444">
+				
+				</div>
+				
+				<div class="inputBox">
+					<spam>Expire Date</spm>
+					<input type="text" placeholder="10/23">
+				
+				</div>
+				
+				<div class="inputBox">
+					<spam>CVV</spm>
+					<input type="text" placeholder="111">
+				
+				</div>
+				
+				
+				
+			
+			</div>			
+		
+		</div>
+		
+	
+		
+	<input type = "submit" onclick = "validation()" = "PAY NOW" class="button"> 
+	
+	<script>
+		
+		function validation()
+		{
+			alert("Payment Succesful !! Thank You!!");
+		}
+	
+	</script>
+		
+
+		
+		
+	</form>
+	
+</div>
+</body>
+
+</html>

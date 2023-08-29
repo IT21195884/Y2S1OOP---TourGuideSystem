@@ -1,0 +1,88 @@
+
+.div1
+{
+	background : transparent;
+	width : 33.33%;
+	float : right;
+	
+}
+
+.div2
+{
+	background : Aliceblue;
+	width : 33.33%;
+	float : left;
+
+}
+
+.div3
+{
+	background : transparent;
+	width : 33.33%;
+	margin : 0 auto;
+}
+
+
+.date
+{
+	background-color: black;
+	font-size : 20px;
+	font-family :"Lucida Console", "Courier New", monospace;
+	font-color : gray;
+	text-align: center;
+	padding : 5px 5px 5px 5px;
+	
+	
+}
+
+.shoptitle
+{
+	font-size : 40px;
+	font-family :"Lucida Console", "Courier New", monospace;
+	font-color : gray;
+	text-align: center;
+	padding : 5px 5px 5px 5px;
+	
+	
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 260px;
+
+  margin: auto;
+  text-align: center;
+  font-family: a'poppins' , sans-serif;
+}
+
+
+
+.logopic
+{
+	width: 40%;
+	height: 40%;
+}
+
+
+.price {
+  color: gray;
+  font-size: 25px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px 10px 10px 10px;
+  box-shadow : 5px 5px 5px 5px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  font-size: 25px;
+}
+
+.card button:hover {
+  opacity: 0.43;
+   
+}
